@@ -1,5 +1,6 @@
 
 body{
+    position: relative;
     background-color: black;
     overflow-x: hidden;
     color: white;
@@ -85,11 +86,29 @@ iframe{
 }
 
 #bottom{
+    font-size: 15px;
     position: relative;
     bottom:-100vh;
     left:-10px;
     height:150px;
     width:100vw;
+}
+
+#contectiamgediv{
+
+}
+#contectiamge{
+    border-radius: 100%;
+    height: 50vw;
+    width: 50vw;
+    max-width: 400px;
+    max-height: 400px;
+    margin:20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../contact.jpg");
+
 }
 
 a{
