@@ -59,14 +59,11 @@ body::-webkit-scrollbar{
 }
 
 @media screen and (max-width: 1000px){
- 
-    body{
-    }
     #if2{
         display: grid;
     }
     .iframe{
-        padding-top:30vh;
+        padding-top:15vh;
     }
     iframe{
         width:70vw;
