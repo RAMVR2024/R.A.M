@@ -29,6 +29,7 @@
    z-index:1;
  }
 img {
+  left:0px;
   position: fixed;
   margin: 10px;
   z-index:2;
