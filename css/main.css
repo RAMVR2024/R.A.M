@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    font-family: Syncopate, "微軟正黑體", sans-serif;
+    color:#FFF;
+    margin-left: 10px;
+    position:fixed;
+    z-index: 999;
+}
+
+canvas{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 0;
+}
+
+header span{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a{
+    color:#FFF;  
+    text-decoration: none;
+}
+
+a:hover{
+    color:yellow;
+    
+}
+
+body{
+    background-color: black;
+}
