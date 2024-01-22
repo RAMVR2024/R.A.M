@@ -84,7 +84,15 @@ iframe{
     margin: 10%;
 }
 
-@media screen and (max-width: 1000px){
+#bottom{
+    position: relative;
+    bottom:-100vh;
+    left:-10px;
+    height:150px;
+    width:100vw;
+}
+
+@media screen and (max-width: 1200px){
     #if2{
         display: grid;
     }
