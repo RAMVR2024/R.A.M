@@ -33,3 +33,8 @@ img {
   margin: 10px;
   z-index:2;
 }
+
+a.centerparent {
+  width: 100vw;
+  height: 100vh;
+}
