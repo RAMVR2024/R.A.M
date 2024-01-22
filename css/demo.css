@@ -65,6 +65,16 @@ body::-webkit-scrollbar{
     font-weight:bold;
 }
 
+.tag {
+    width:100vw;
+}
+
+.ling{
+    width: 40%;
+    height: 2px;
+    padding: 2px;
+}
+
 @media screen and (max-width: 1000px){
     #if2{
         display: grid;
