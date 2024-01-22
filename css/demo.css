@@ -92,6 +92,16 @@ iframe{
     width:100vw;
 }
 
+a{
+    color: white;
+}
+
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    outline:none;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1200px){
     #if2{
         display: grid;
