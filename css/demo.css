@@ -8,8 +8,9 @@ body{
 }
 
 .iframe{
+    padding-top: 20px;
     width: 70vw;
-    height: 35vw;
+    /*height: 25vw;*/
 }
 
 .center{
@@ -36,6 +37,7 @@ body{
 
 .intro{
     padding:10%;
+    padding-top:3%;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
@@ -54,9 +56,14 @@ body::-webkit-scrollbar{
     background-image: url("../RunHeadBanner.png");
 }
 
+iframe{
+    padding-top:20px;
+}
+
 #if2{
     width: 100vw; 
     display: flex;
+    padding-top: 50px;
     
 }
 
@@ -66,13 +73,15 @@ body::-webkit-scrollbar{
 }
 
 .tag {
+    display: flex;
     width:100vw;
 }
 
-.ling{
+.line{
+    background-color: white;
     width: 40%;
-    height: 2px;
-    padding: 2px;
+    height: 0.5px;
+    margin: 10%;
 }
 
 @media screen and (max-width: 1000px){
@@ -81,6 +90,7 @@ body::-webkit-scrollbar{
     }
     .iframe{
         padding-top:15vh;
+        height:35vw;
     }
     iframe{
         width:70vw;
